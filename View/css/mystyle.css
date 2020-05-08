@@ -1,0 +1,247 @@
+#menu_principale{
+	background-image: url("../img/menu_bg.jpg");
+	background-size: cover;
+}
+#main_page{
+	background-image: linear-gradient(to left bottom, #5b0ea3, #7e009b, #990093, #ae008b, #c01383);
+}
+
+.firstcard {
+	background-image: linear-gradient(to right bottom, #6923d6FF, #5a2bd7FF, #4931d7E6, #3436d7BF, #0f3ad6A6);
+	padding: 5%;
+}
+.secondcard {
+	background-image: linear-gradient(to right bottom, #ff8500FF, #ff6936FF, #ff5055E6, #fa3e72BF, #e5398bA6);
+	padding: 5%;
+}
+.thirdcard {
+	background-image: linear-gradient(to right bottom, #d966edFF, #c551ebFF, #ae3debE6, #9228ebBF, #7012ebA6);
+	padding: 5%;
+}
+.fourthcard{
+	background-image: linear-gradient(to right bottom, #3bdebbFF, #00ced4FF, #00bce8E6, #00a5efBF, #398be5A6);
+	padding: 5%;
+}
+
+.colorful_menu{
+	background-image: linear-gradient(to bottom, #051937, #04163b, #08123f, #110c41, #1b0341); }
+
+.on_menu{
+	background: transparent;
+	opacity: .3;
+}
+
+.firstcard:hover{opacity: .85;}
+.secondcard:hover{opacity: .9;}
+.thirdcard:hover{opacity: .85;}
+.fourthcard:hover{opacity: .87;}
+
+
+
+.sidenav {
+	height: 50%;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	overflow-x: hidden;
+	padding: 0px;
+}
+
+.hr{
+	margin-top: 9%;
+	border-top: 2px solid #c6c6c6;
+	width: 70%;
+	margin-left: 15%;
+	opacity: .4;
+}
+
+.hr1{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-top: 1px solid #c6c6c6;
+	width: 100%;
+	opacity: .3;
+}
+
+.dot {
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/Sohaib.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	display: inline-block;
+}
+.menu_element{
+	border-radius: 40px;
+	height: 11%;
+	width: 96%;
+	padding: .01%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #c6c6c6;
+	display: block;
+	font-weight: initial;
+}
+
+.sidenav a:hover {
+	color: #fefefe;
+	opacity: .99;
+	font-weight: bold;
+}
+
+
+.card00 {
+	background: transparent;
+	/* Add shadows to create the "card" effect */
+	box-shadow: 1px 1px 2px 2px rgba(0,0,200,0.05);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+.card0 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 1px 1px 2px 2px rgba(0,0,200,0.05);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+.card1 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 14px 28px rgba(0,0,200,0.16), 0 10px 20px rgba(0,0,200,0.22);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+.dashboardCard {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px rgba(0,0,200,0.06), 0 4px 8px rgba(0,0,200,0.12);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+.dashboardCard:hover {
+	box-shadow: 1px 1px 1px 1px rgba(0,0,200,0.1);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+	box-shadow: 1px 1px 1px 1px rgba(0,0,200,0.1);
+}
+
+.card2 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 14px 28px rgba(224,9,23,0.16), 0 10px 20px rgba(224,9,23,0.22);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card2:hover {
+	box-shadow: 1px 1px 1px 1px rgba(224,9,23,0.1);
+}
+.card3 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 14px 28px rgba(112,19,234,0.16), 0 10px 20px rgba(112,19,234,0.22);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card3:hover {
+	box-shadow: 1px 1px 1px 1px rgba(112,19,234,0.1);
+}
+.card4 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 14px 28px rgba(0,120,254,0.16), 0 10px 20px rgba(0,120,254,0.22);
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card4:hover {
+	box-shadow: 1px 1px 1px 1px rgba(0,120,254,0.1);
+}
+
+
+
+.style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.1);
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.1);
+}
+
+.style-1::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: rgba(255,255,255,0.1);
+}
+
+.style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.4);
+	background-color: rgba(255,255,255,0.7);
+}
+
+.style-11::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(22,22,122,0.2);
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.style-11::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.style-11::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.45);
+	background-color: rgba(20,20,114,0.55);
+}
+
+
+.card_title{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	opacity: .95;
+}
+.app_card_title{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	opacity: .9;
+	margin-bottom: 0;
+}
+.app_card_subtitle{
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	opacity: .9;
+}
+
+.design-card{
+	padding: 1.5%;
+	height: 50%;
+	background-color: transparent;
+}
+.design-subcard{
+	height: 100%;
+	width: 100%;
+	background-color: #1b0341;
+	border-radius: 5%;
+}
+
+
